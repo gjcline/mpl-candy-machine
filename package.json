@@ -1,6 +1,9 @@
 {
   "private": true,
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "programs:build": "./configs/program-scripts/build.sh",
     "programs:test": "./configs/program-scripts/test.sh",
     "programs:clean": "rm -rf ./programs/.bin",
